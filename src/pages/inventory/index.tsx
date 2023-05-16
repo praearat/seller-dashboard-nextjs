@@ -24,7 +24,9 @@ const Inventory = () => {
             dataIndex: 'thumbnail',
             key: 'thumbnail',
             render: (thumbnail) => {
-              return <Image src={thumbnail} style={{ width: 100 }} />
+              return (
+                <Image src={thumbnail} alt="product" style={{ width: 100 }} />
+              )
             },
           },
           {

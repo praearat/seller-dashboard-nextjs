@@ -14,7 +14,6 @@ import {
 import { BellOutlined, MailOutlined } from '@ant-design/icons'
 import styled from 'styled-components'
 import { iconSize } from '@/utils/styles'
-import Notification from './Notification'
 import { getAllCarts, getAllComments } from '@/pages/api'
 
 const { Header } = Layout
